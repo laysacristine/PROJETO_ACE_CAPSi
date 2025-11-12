@@ -1,0 +1,14 @@
+.wave-letter {
+    display: inline-block;
+    animation: wave 1.6s ease-in-out infinite;
+    animation-delay: calc(0.20s * var(--i));
+}
+
+@keyframes wave {
+    0%, 100% {
+    transform: translateY(0);
+    }
+    50% {
+    transform: translateY(-10px);
+    }
+}

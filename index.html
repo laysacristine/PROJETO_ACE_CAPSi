@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAPSi Matipó</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col min-h-screen">
+<!--==================================================================================================================================-->
+<!-- Cabeçalho -->
+  <header class="bg-fuchsia-600 text-white shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-6 py-3">
+
+<!-- Logo -->
+      <div class="flex items-center gap-1">
+        <div class="bg-yellow-400 text-white font-bold px-2 py-1 rounded">C</div>
+        <div class="bg-red-500 text-white font-bold px-2 py-1 rounded">A</div>
+        <div class="bg-green-500 text-white font-bold px-2 py-1 rounded">P</div>
+        <div class="bg-blue-500 text-white font-bold px-2 py-1 rounded">S</div>
+        <div class="bg-indigo-500 text-white font-bold px-2 py-1 rounded">I</div>
+      </div>
+
+<!-- Menu -->
+      <nav class="flex gap-6 text-sm font-semibold">
+        <a href="#inicio" class="hover:text-yellow-200 transition">Início</a>
+        <a href="#sobre" class="hover:text-yellow-200 transition">Sobre</a>
+        <a href="#galeria" class="hover:text-yellow-200 transition">Galeria</a>
+        <a href="#contato" class="hover:text-yellow-200 transition">Contato</a>
+      </nav>
+
+    </div>
+  </header>
+<!--==================================================================================================================================-->
+
+
+<!--===================================================================================================================================================================================================================================================-->
+<!-- Seção inicio--> 
+<section class="relative bg-gradient-to-r from-fuchsia-600 to-indigo-700 text-white text-center py-24 px-6 overflow-hidden">
+  <div class="max-w-4xl mx-auto relative z-10">
+    <h1 class="text-4xl md:text-5xl font-extrabold mb-4 drop-shadow-lg text-white wave-text">
+      <span style="--i:1" class="wave-letter bg-yellow-400 text-white font-bold px-2 py-1 rounded">C</span>
+      <span style="--i:2" class="wave-letter bg-red-500 text-white font-bold px-2 py-1 rounded">A</span>
+      <span style="--i:3" class="wave-letter bg-green-500 text-white font-bold px-2 py-1 rounded">P</span>
+      <span style="--i:4" class="wave-letter bg-blue-500 text-white font-bold px-2 py-1 rounded">S</span>
+      <span style="--i:5" class="wave-letter bg-indigo-500 text-white font-bold px-2 py-1 rounded">I</span>
+    </h1>
+    <p class="text-lg md:text-xl mb-8 text-fuchsia-100">
+      Cuidando da saúde mental de crianças e adolescentes com acolhimento, respeito e amor.
+    </p>
+  </div>
+
+  <!--ondinhas de decoração-->
+  <svg class="absolute bottom-0 left-0 right-0 w-full h-44 z-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+    <path fill="#fff" d="M0,160L48,154.7C96,149,192,139,288,154.7C384,171,480,213,576,229.3C672,245,768,235,864,213.3C960,192,1056,160,1152,165.3C1248,171,1344,213,1392,229.3L1440,245L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+  </svg>
+
+    <!-- Botão flutuante  -->
+  <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
+    <a href="#sobre" class="bg-fuchsia-900 text-white font-semibold px-8 py-4 rounded-full shadow-xl hover:bg-fuchsia-800 transition">
+      Saiba mais
+    </a>
+  </div>
+</section>
+<!--==================================================================================================================================-->
+
+
+<!--==================================================================================================================================-->
+<!-- Seção Introdução (ligada à anterior) -->
+<section id="introducao" class="bg-white py-20 -mt-1 relative z-10">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 gap-12">
+
+    <!-- Imagem -->
+    <div class="md:w-1/2">
+      <img src="img/DSC06344.JPG" 
+          alt="Cuidado e acolhimento"
+          class="w-full max-w-md mx-auto rounded-2xl shadow-lg">
+    </div>
+
+    <!-- Texto -->
+    <div class="md:w-1/2 text-left">
+      <h2 class="text-4xl font-extrabold text-fuchsia-700 mb-4">
+        Um espaço de escuta e cuidado
+      </h2>
+      <p class="text-slate-700 text-lg leading-relaxed text-justify"><i>
+      "Acreditamos que cuidar é escutar, acolher e caminhar junto.
+      Trabalhamos com as famílias e a comunidade para criar um espaço onde cada criança e adolescente
+      possa se sentir seguro, respeitado e apoiado."</i>
+      </p>
+    </div>
+
+  </div>
+</section>
+<!--==================================================================================================================================-->
+
+
+<!--==================================================================================================================================-->
+<!-- Seção Sobre -->
+<section id="sobre" class="bg-white py-16">
+  <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+    
+    <!-- Texto -->
+    <div class="md:w-1/2 text-left">
+      <h2 class="text-3xl font-bold text-fuchsia-700 mb-4">O que é o CAPSi?</h2>
+
+      <p class="text-slate-700 text-lg leading-relaxed mt-4 text-justify">
+        O <strong>Centro de Atenção Psicossocial Infantojuvenil (CAPSi)</strong> de Matipó é um serviço público especializado no 
+        cuidado e acompanhamento de crianças e adolescentes com transtornos mentais severos e persistentes.  
+      </p> 
+
+      <p class="text-slate-700 text-lg leading-relaxed mt-4 text-justify">
+        O objetivo é oferecer um espaço acolhedor e humanizado, que promova a inclusão social e o fortalecimento dos vínculos 
+        familiares e comunitários. A equipe multidisciplinar é composta por psicólogos, assistentes sociais, terapeutas ocupacionais, 
+        pedagogos e profissionais da saúde que trabalham de forma integrada para garantir o melhor atendimento possível.
+      </p>
+
+      <p class="text-slate-700 text-lg leading-relaxed mt-4 text-justify">
+        Localizado na <strong>Rua Ozires Linhares Fraga, S/N, Bairro Exposição, Matipó - MG</strong>, o CAPSi atua em parceria com escolas, unidades básicas de saúde e outros serviços da rede de 
+        proteção à infância e juventude, visando o desenvolvimento integral dos usuários.
+      </p>
+    </div>
+
+    <!-- Imagem -->
+    <div class="md:w-1/2 flex justify-center">
+      <img src="###" alt="Fachada do CAPSi de Matipó" class="rounded-2xl shadow-lg w-full md:w-11/12 object-cover">
+    </div>
+  </div>
+</section>
+<!--==================================================================================================================================-->
+
+<!--==================================================================================================================================-->
+  <!-- Seção fotos -->
+<section id="galeria" class="bg-fuchsia-50 py-16">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold text-fuchsia-700 mb-8">Galeria</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- imagem 1 -->
+      <div class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+        <div class="h-56 bg-gray-200 flex items-center justify-center">
+          <span class="text-gray-400">Imagem 1</span>
+        </div>
+        <div class="p-4">
+          <p class="text-slate-700 text-justify">
+            Descrição
+          </p>
+        </div>
+      </div>
+
+      <!-- imagem 2 -->
+      <div class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+        <div class="h-56 bg-gray-200 flex items-center justify-center">
+          <span class="text-gray-400">Imagem 2</span>
+        </div>
+        <div class="p-4">
+          <p class="text-slate-700 text-justify">
+            Descrição
+          </p>
+        </div>
+      </div>
+
+      <!-- imagem 3 -->
+      <div class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+        <div class="h-56 bg-gray-200 flex items-center justify-center">
+          <span class="text-gray-400">Imagem 3</span>
+        </div>
+        <div class="p-4">
+          <p class="text-slate-700 text-justify">
+            Descrição
+          </p>
+        </div>
+      </div>
+
+      <!-- imagem 4 -->
+      <div class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+        <div class="h-56 bg-gray-200 flex items-center justify-center">
+          <span class="text-gray-400">Imagem 4</span>
+        </div>
+        <div class="p-4">
+          <p class="text-slate-700 text-justify">
+            Descrição
+          </p>
+        </div>
+      </div>
+
+      <!-- imagem 5 -->
+      <div class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+        <div class="h-56 bg-gray-200 flex items-center justify-center">
+          <span class="text-gray-400">Imagem 5</span>
+        </div>
+        <div class="p-4">
+          <p class="text-slate-700 text-justify">
+            Descrição
+          </p>
+        </div>
+      </div>
+
+      <!-- imagem 6 -->
+      <div class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+        <div class="h-56 bg-gray-200 flex items-center justify-center">
+          <span class="text-gray-400">Imagem 6</span>
+        </div>
+        <div class="p-4">
+          <p class="text-slate-700 text-justify">
+            Descrição
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--==================================================================================================================================-->
+
+<!--==================================================================================================================================-->
+<!-- Rodapé -->
+<footer id="contato" class="bg-slate-900 text-slate-200 py-12">
+  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
+    
+    <!-- Logo e nome -->
+    <div>
+      <div class="flex items-center gap-1 mb-3">
+        <div class="bg-yellow-400 text-black font-bold px-2 py-1 rounded">C</div>
+        <div class="bg-red-500 text-white font-bold px-2 py-1 rounded">A</div>
+        <div class="bg-green-500 text-white font-bold px-2 py-1 rounded">P</div>
+        <div class="bg-blue-500 text-white font-bold px-2 py-1 rounded">S</div>
+        <div class="bg-indigo-500 text-white font-bold px-2 py-1 rounded">I</div>
+      </div>
+      <p class="text-sm text-slate-400 leading-relaxed">
+        Centro de Atenção Psicossocial Infantojuvenil de Matipó.  
+        Acolhendo e cuidando com empatia e dedicação.
+      </p>
+    </div>
+
+    <!-- Contato -->
+    <div>
+      <h5 class="text-lg font-bold text-white mb-4 uppercase tracking-wide">Contato</h5>
+
+      <ul class="space-y-3 text-slate-300">
+        <li class="flex items-start gap-3">
+          <!-- Casa -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-1 text-fuchsia-400" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"/>
+            <path d="M12 5.432l8.159 8.159v6.198a1.875 1.875 0 01-1.875 1.875H15v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21H5.625A1.875 1.875 0 013.75 19.5v-6.198L12 5.43z"/>
+          </svg>
+          Rua Ozires Linhares Fraga, S/N, Bairro Exposição, Matipó - MG
+        </li>
+
+        <li class="flex items-center gap-3">
+          <!-- Email -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-fuchsia-400" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"/>
+            <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"/>
+          </svg>
+          capsimatipo@saude.mg.gov.br
+        </li>
+
+        <li class="flex items-center gap-3">
+          <!-- Telefone -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-fuchsia-400" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97a.3.3 0 00-.126.352 11.285 11.285 0 006.697 6.697.3.3 0 00.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd"/>
+          </svg>
+          +55 (31) 9 3873-1468
+        </li>
+      </ul>
+    </div>
+
+    <!-- Mapa -->
+    <div>
+      <h5 class="text-lg font-bold text-white mb-4 uppercase tracking-wide">Localização</h5>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.2188750334703!2d-42.337999724005115!3d-20.29120554965954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbb2512ae1d357b%3A0x455eeb7f8026d9a1!2sCapsi!5e0!3m2!1spt-BR!2sbr!4v1762792124857!5m2!1spt-BR!2sbr"   
+        class="w-full h-48 rounded-lg border-0 shadow-md"
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+
+<!-- Copyright  -->
+  <div class="border-t border-slate-700 mt-10 pt-6 text-center text-sm text-slate-500">
+    © Desenvolvido por estudantes do 2º Período do curso de Ciência da Computação
+  </div>
+</footer>
+
+</body>
+</html>
