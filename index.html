@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR" class="scroll-smooth">
+
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#a21caf">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Laysa Cristine Mendes">
+  <meta name="author" content="Lucas Henrique de Oliveira Vieira">
   <title>CAPSi Matipó</title>
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://cdn.tailwindcss.com"></script>
@@ -25,10 +32,10 @@
 
 <!-- Menu -->
       <nav class="flex gap-6 text-sm font-semibold">
-        <a href="#inicio" class="hover:text-yellow-200 transition">Início</a>
-        <a href="#sobre" class="hover:text-yellow-200 transition">Sobre</a>
-        <a href="#galeria" class="hover:text-yellow-200 transition">Galeria</a>
-        <a href="#contato" class="hover:text-yellow-200 transition">Contato</a>
+        <a href="#inicio" class="hover:text-gray-600 transition">Início</a>
+        <a href="#sobre" class="hover:text-gray-600 transition">Sobre</a>
+        <a href="#galeria" class="hover:text-gray-600 transition">Galeria</a>
+        <a href="#contato" class="hover:text-gray-600 transition">Contato</a>
       </nav>
 
     </div>
@@ -57,41 +64,45 @@
     <path fill="#fff" d="M0,160L48,154.7C96,149,192,139,288,154.7C384,171,480,213,576,229.3C672,245,768,235,864,213.3C960,192,1056,160,1152,165.3C1248,171,1344,213,1392,229.3L1440,245L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
   </svg>
 
-    <!-- Botão flutuante  -->
-  <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
-    <a href="#sobre" class="bg-fuchsia-900 text-white font-semibold px-8 py-4 rounded-full shadow-xl hover:bg-fuchsia-800 transition">
-      Saiba mais
-    </a>
-  </div>
 </section>
 <!--==================================================================================================================================-->
 
 
 <!--==================================================================================================================================-->
 <!-- Seção Introdução (ligada à anterior) -->
-<section id="introducao" class="bg-white py-20 -mt-1 relative z-10">
-  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 gap-12">
+<section id="inicio" class="bg-white py-20 -mt-1 relative z-10">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 gap-12">
 
-    <!-- Imagem -->
-    <div class="md:w-1/2">
-      <img src="img/DSC06344.JPG" 
-          alt="Cuidado e acolhimento"
-          class="w-full max-w-md mx-auto rounded-2xl shadow-lg">
+        <div class="md:w-1/2">
+            <img src="img/WhatsApp Image 2025-11-17 at 16.03.35.jpeg" 
+                alt="Cuidado e acolhimento"
+                class="w-full max-w-md mx-auto rounded-2xl shadow-lg">
+        </div>
+
+        <div class="md:w-1/2 text-left">
+            
+            <p class="text-xl font-semibold text-fuchsia-500 mb-2">
+                CAPSi Matipó: Saúde Mental e Acolhimento
+            </p>
+            <h2 class="text-4xl font-extrabold text-fuchsia-700 mb-6">
+                Um espaço de escuta e cuidado
+            </h2>
+            <p class="text-slate-800 text-xl leading-relaxed mb-6">
+                Navegar pelos desafios da infância e adolescência pode ser complexo. O Centro de Atenção Psicossocial Infantojuvenil (CAPSi) de Matipó está aqui para oferecer suporte especializado e gratuito, garantindo que crianças e jovens com necessidades psicossociais complexas recebam o apoio de que precisam para florescer.
+            </p>
+            <p class="text-slate-700 text-lg leading-relaxed border-l-4 border-fuchsia-300 pl-4 py-2 italic">
+                "Acreditamos que cuidar é escutar, acolher e caminhar junto.
+                Trabalhamos com as famílias e a comunidade para criar um espaço onde cada criança e adolescente
+                possa se sentir seguro, respeitado e apoiado."
+            </p>
+            <div class="mt-6">
+                <a href="#sobre" class="text-lg font-medium text-fuchsia-700 hover:text-fuchsia-900 transition duration-300 flex items-center">
+                    Descubra como podemos ajudar 
+                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                </a>
+            </div>
+        </div>
     </div>
-
-    <!-- Texto -->
-    <div class="md:w-1/2 text-left">
-      <h2 class="text-4xl font-extrabold text-fuchsia-700 mb-4">
-        Um espaço de escuta e cuidado
-      </h2>
-      <p class="text-slate-700 text-lg leading-relaxed text-justify"><i>
-      "Acreditamos que cuidar é escutar, acolher e caminhar junto.
-      Trabalhamos com as famílias e a comunidade para criar um espaço onde cada criança e adolescente
-      possa se sentir seguro, respeitado e apoiado."</i>
-      </p>
-    </div>
-
-  </div>
 </section>
 <!--==================================================================================================================================-->
 
@@ -120,14 +131,45 @@
         Localizado na <strong>Rua Ozires Linhares Fraga, S/N, Bairro Exposição, Matipó - MG</strong>, o CAPSi atua em parceria com escolas, unidades básicas de saúde e outros serviços da rede de 
         proteção à infância e juventude, visando o desenvolvimento integral dos usuários.
       </p>
+      
+      <div class=" text-left mt-8">
+          <h2 class="text-3xl font-bold text-fuchsia-700 mb-4">Principais Atividades</h2>
+          <ul class="list-disc list-inside text-slate-700 text-lg leading-relaxed mt-4">
+              <li>Atendimento psicológico individual e em grupo;</li>
+              <li>Acompanhamento psiquiátrico e manejo medicamentoso, quando necessário;</li>
+              <li>Oficinas terapêuticas e atividades lúdicas;</li>
+              <li>Ações de Terapia Ocupacional para desenvolvimento de autonomia e sociabilidade;</li>
+              <li>Apoio às famílias e grupos de convivência;</li>
+              <li>Articulação com a rede de serviços locais (escolas, conselho tutelar e unidades de saúde);</li>
+              <li>Promoção de campanhas de conscientização sobre saúde mental;</li>
+              <li>Projetos de inclusão social.</li>
+          </ul>
+      </div>
+      <div class="mt-12 p-6 bg-fuchsia-50 border-l-4 border-fuchsia-700 rounded-lg">
+          <h3 class="text-xl font-bold text-fuchsia-700 mb-2">Compromisso com o Futuro</h3>
+          <p class="text-slate-700 text-lg leading-relaxed italic">
+          "O CAPSi é mais que um serviço; é um compromisso diário com a esperança e com o pleno
+          desenvolvimento de cada criança e adolescente. Juntos, construímos uma rede de
+          cuidado que transforma vidas."
+          </p>
+        </div>
+
+<div class="mt-8 text-center md:text-left">
+    <a href="#contato" class="inline-block px-8 py-3 text-lg font-semibold text-white bg-fuchsia-700 rounded-full hover:bg-fuchsia-800 transition duration-300 shadow-lg">
+        Fale Conosco e Saiba Mais
+    </a>
+</div>
     </div>
+    
 
     <!-- Imagem -->
     <div class="md:w-1/2 flex justify-center">
-      <img src="###" alt="Fachada do CAPSi de Matipó" class="rounded-2xl shadow-lg w-full md:w-11/12 object-cover">
+      <img src="img/WhatsApp Image 2025-11-17 at 16.03.36.jpeg" alt="Fachada do CAPSi de Matipó" class="rounded-2xl shadow-lg w-full md:w-11/12 object-cover">
     </div>
   </div>
 </section>
+
+
 <!--==================================================================================================================================-->
 
 <!--==================================================================================================================================-->
@@ -140,72 +182,42 @@
       <!-- imagem 1 -->
       <div class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
         <div class="h-56 bg-gray-200 flex items-center justify-center">
-          <span class="text-gray-400">Imagem 1</span>
-        </div>
-        <div class="p-4">
-          <p class="text-slate-700 text-justify">
-            Descrição
-          </p>
+          <img src="img/luta.jpeg" alt="capsi" class="rounded-2xl shadow-lg w-full md:w-11/12 object-cover">
         </div>
       </div>
 
       <!-- imagem 2 -->
       <div class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
         <div class="h-56 bg-gray-200 flex items-center justify-center">
-          <span class="text-gray-400">Imagem 2</span>
-        </div>
-        <div class="p-4">
-          <p class="text-slate-700 text-justify">
-            Descrição
-          </p>
+          <img src="img/luta2.jpeg" alt="capsi" class="rounded-2xl shadow-lg w-full md:w-11/12 object-cover">
         </div>
       </div>
 
       <!-- imagem 3 -->
       <div class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
         <div class="h-56 bg-gray-200 flex items-center justify-center">
-          <span class="text-gray-400">Imagem 3</span>
-        </div>
-        <div class="p-4">
-          <p class="text-slate-700 text-justify">
-            Descrição
-          </p>
+          <img src="img/imag.jpeg" alt="capsi" class="rounded-2xl shadow-lg w-full md:w-11/12 object-cover">
         </div>
       </div>
 
       <!-- imagem 4 -->
       <div class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
         <div class="h-56 bg-gray-200 flex items-center justify-center">
-          <span class="text-gray-400">Imagem 4</span>
-        </div>
-        <div class="p-4">
-          <p class="text-slate-700 text-justify">
-            Descrição
-          </p>
+          <img src="img/DSC06344.JPG" alt="capsi" class="rounded-2xl shadow-lg w-full md:w-11/12 object-cover">
         </div>
       </div>
 
       <!-- imagem 5 -->
       <div class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
         <div class="h-56 bg-gray-200 flex items-center justify-center">
-          <span class="text-gray-400">Imagem 5</span>
-        </div>
-        <div class="p-4">
-          <p class="text-slate-700 text-justify">
-            Descrição
-          </p>
+          <img src="img/16.03.36.jpeg" alt="capsi" class="rounded-2xl shadow-lg w-full md:w-11/12 object-cover">
         </div>
       </div>
 
       <!-- imagem 6 -->
       <div class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
         <div class="h-56 bg-gray-200 flex items-center justify-center">
-          <span class="text-gray-400">Imagem 6</span>
-        </div>
-        <div class="p-4">
-          <p class="text-slate-700 text-justify">
-            Descrição
-          </p>
+          <img src="img/pintura.jpeg" alt="capsi" class="rounded-2xl shadow-lg w-full md:w-11/12 object-cover">
         </div>
       </div>
     </div>
